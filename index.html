@@ -4,9 +4,446 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hockey's Hive</title>
-    <link rel="shortcut icon" href="images/hockeyIcon.jpg" type="image/x-icon">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/hockeyIcon.jpeg" type="image/x-icon">
+
+    <!-- link Tailwindcss and daisyUI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- link css file -->
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .manrope
+{font-family: 'Manrope', sans-serif;}
+</style>
+
+<!-- link font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- link font awesome -->
+
+<script src="https://kit.fontawesome.com/10cdc8742d.js" crossorigin="anonymous"></script>
+
+
 </head>
-<body>
+<body class="manrope">
+
+<header class=" manrope flex justify-around items-center border-4 border-indigo-500">
+    <div class=" bg-base-100">
+        <h2 class="text-4xl ">The Hockey<span style="color:#FF4240 ;">'</span>s Hive</h2>
+    </div>
+
+    <div class="flex justify-center ">
+         <a href="" style="color: #FF4240;">Home </a>
+         <a href="">About</a>
+         <a href="">Pages</a>
+         <a href="">Blog</a>
+         <a href="">contact</a>
+
+    </div>
+ 
+     <div class="items-center justify-end">
+        <i class="fa-solid fa-magnifying-glass "></i>
+        <button class="btn Wide button bg-[#FF4240] text-white  text-2xl">Get Ticket</button>
+     </div>
+
+
+
+</header>
+
+<main class="border-4 border-red-500  "   >
+ <div class="banner  lg:w-screen-4/6">
+
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="images/Banner1.png" class="w-full" />
+          <div class="absolute flex  transform -translate-y-500 left-10  top-3/4">
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="images/banner2.jpg" class="w-full" />
+          <div class="absolute flex  transform -translate-y-500 left-10  top-3/4">
+            <a href="#slide1" class="btn btn-circle bg-black  text-white">❮</a> 
+            <a href="#slide3" class="btn btn-circle bg-black  text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="images/banner3.jpg" class="w-full" />
+          <div class="absolute flex  transform -translate-y-500 left-10  top-3/4">
+            <a href="#slide2" class="btn btn-circle text-white bg-black">❮</a> 
+            <a href="#slide1" class="btn btn-circle text-white bg-black">❯</a>
+          </div>
+        </div> 
+        
+      </div>
+        
+      </div>
+
+      <div class=" bg-black text-white rounded-2xl md:p-11  md:relative left-2/3 w-1/3 bottom-64 ">
+
+        <h3 class="text-xl ">Meet all the heroes from the field</h3>
+        <p class="text-sm   ">Explore the hockey legends who have left an indelible mark on the ice. From iconic goal scorers to masterful defenders.</p>
+
+      </div>
+ 
+
+    <!-- professional Hockey club part -->
+      <div class="manrope  p-4 text-center  border-dotted border-2 border-[#13131833]">
+       <h3 class="font-extrabold text-center text-xl mb-3"> Professional Hockeys Club</h3>
+       <p class="font-medium mb-3 ">Dive into the heart of our professional hockey club as we showcase the elite athletes who define excellence on the rink. Experience the prowess and dedication of our team's heroes, where skill, teamwork, and unwavering commitment converge to create an unforgettable journey on the ice.</p>
+
+      </div>
+
+  <!-- Radial progress bar part -->
+      <div class=" lg:flex text-center mt-28 mb-28 pb-2">
+
+
+        <div>
+          <div class="  manrope radial-progress text-primary " style="--value:87;
+      color: red;" role="progressbar"><span  class=" manrope font-extrabold"  style="color: black;">87%</span></div>
+      
+      
+      <h4 class="manrope font-extrabold ">player Facility</h4>
+      <p  class="manrope pb-8"> Experience  top-tier player facilities, providing  environment to excel in the game of hockey.</p>
+         
+        </div>
+
+        <div>
+          <div class=" manrope radial-progress text-primary " style="--value:95;
+      color:#49D293 ;" role="progressbar"><span  class=" manrope font-extrabold"  style="color: black;">95%</span></div>
+      
+      
+      <h4 class="manrope font-extrabold ">Experienced Coach</h4>
+      <p  class="manrope pb-8"> Guided by an experienced coach, our team benefits from a seasoned mentor shaping strategic gameplay and fostering individual player development.</p>
+         
+        </div>
+
+        <div>
+          <div class=" manrope radial-progress text-primary sm:mb-2"  style="--value:90;
+      color:#FFB546;" role="progressbar"><span  class=" manrope font-extrabold"  style="color: black;">90%</span></div>
+      
+      
+      <h4 class="manrope font-extrabold ">Senior player</h4>
+      <p  class="manrope pb-8"> As a senior player, bring seasoned leadership to the team, combining skill and experience to drive success on the ice.</p>
+         
+        </div>
+ 
+
+
+        <div>
+          <div class=" manrope radial-progress text-primary  sm:mb-2" style="--value:80;
+      color: #4C8DF1;" role="progressbar"><span  class=" manrope font-extrabold"  style="color: black;">80%</span></div>
+      
+      
+      <h4 class="manrope font-extrabold ">Training Ground</h4>
+      <p  class="manrope pb-8"> Elevate your game at our cutting-edge training ground, where innovation meets dedication, and athletes hone their skills for peak performance on the hockey arena.</p>
+         
+        </div>
+
+
+
+
+      </div>
+
+ <!-- programs section -->
+ <div class=" manrope text-center border-dotted border-2 border-[#13131833] p-4 mb-10"> 
+  <h3 class="font-extrabold text-2xl ">Program Sections</h3>
+  <p class="">Explore our diverse program sections tailored for every level of player, from grassroots initiatives nurturing young talents to advanced training programs for elite athletes aiming to excel on the professional stage</p>
+  </div >
+  
+
+
+<!-- program registration section -->
+
+<div class="lg:grid grid-cols-2 gap-5">
+  <div style="Background:linear-gradient(to bottom,#13131880, transparent),url(images/program1.png);
+ background-repeat:no-repeat;background-size: cover;" class="text-white items-center 
+    rounded-xl p-10 pt-40  ">
+    <h2 class=" mb-5 card-title font-extrabold text-2xl">Junior Program</h2>
+    <p class="font-medium mb-5">Join  young talents embark on an exciting journey of skill development, teamwork, and passion for the game, laying the foundation for a promising future in hockey.  </p>
     
+  
+  <button class="btn btn-primary border-[#FF4240] bg-[#FF4240] m"> Register Now!</button>
+</div>
+  <div style="Background:linear-gradient(to bottom,#13131880, transparent),url(images/program2.png);background-repeat: no-repeat;background-size: cover;" class="text-white items-center p-10  rounded-xl p-10 pt-40 ">
+    <h2 class=" mb-5 card-title font-extrabold text-2xl">Teenager Program</h2>
+    <p class="font-medium mb-5">our specialized program fosters skill refinement, strategic understanding, and personal growth, preparing young athletes for success </p>
+    
+  
+  <button class="btn btn-primary border-[#FF4240] bg-[#FF4240] m"> Register Now!</button>
+</div>
+  <div style="Background:linear-gradient(to bottom,#13131880, transparent),url(images/program3.png);background-repeat: no-repeat;background-size:cover;" class="text-white items-center p-10 pt-40  rounded-xl col-span-2 ">
+    <h2 class=" mb-5 card-title font-extrabold text-2xl">Professional Program</h2>
+    <p class="font-medium mb-5">A  pathway for elite athletes, offering advanced <br>training, strategic development to the pinnacle of their hockey careers.</p>
+    
+  
+  <button class="btn btn-primary border-[#FF4240] bg-[#FF4240] mb-48"> Register Now!</button>
+</div>
+</div>
+
+
+
+<!-- products part -->
+
+<div class=" manrope text-center  border-dotted border-2 border-[#13131833] p-4 mb-10 m-10 "> 
+  <h3 class="font-extrabold text-2xl">Our New Products</h3>
+  <p class="text-xl  font-medium">Explore our premium line of hockey gear, apparel, and accessories—crafted for performance, style, and the ultimate fan experience. Elevate your game with our top-selling products designed for champions.</p>
+
+ </div>
+
+ <div class="grid grid-cols-2 gap-8">
+<!-- product 1 -->
+  <div class="hero  bg-base-200   border-dotted border-2 border-[#1313181A] bg-white ml-10">
+    <div class="hero-content flex-col lg:flex-row ">
+      <img src="images/products1.png" class="max-w-sm rounded-lg shadow-2xl " />
+      <div><p class="py-3"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>5.0 
+        &nbsp; &nbsp; <i class="fa-solid fa-eye"></i>20 &nbsp; &nbsp;<i class="fa-regular fa-heart"></i>200</p>
+        <h1 class="text-xl font-bold">World Cup Flags jackets</h1>
+        <p class="py-6">Discover the epitome of style and performance with our exclusive jerseys for sale. Embrace the pride of the game as you choose from our premium collection, designed to unite fans and players in authentic hockey spirit.</p>
+        <p > <span style="color: #FF4240;" class="text-2xl font-medium">Price - $22.00 &nbsp; &nbsp;</span><i class="fa-solid fa-cart-shopping"></i>Delivery Free</p>
+        </p>
+        <button class="btn btn-primary bg-[#FF4240] border-[#FF4240] text-white">Buy Now!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class="hero  bg-base-200 border-dotted border-2 border-[#1313181A] bg-white ml-10">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="images/product2.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div><p class="py-3"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>5.0 
+        &nbsp; &nbsp; <i class="fa-solid fa-eye"></i>20 &nbsp; &nbsp;<i class="fa-regular fa-heart"></i>200</p>
+        <h1 class="text-xl font-bold">World Cup Footballs</h1>
+        <p class="py-6">Elevate your football game with our exceptional range of high-quality footballs. From professional match balls to training essentials, our collection combines durability and precision to enhance your skills on the field.</p>
+        <p > <span style="color: #FF4240;" class="text-2xl font-medium">Price - $22.00 &nbsp; &nbsp;</span><i class="fa-solid fa-cart-shopping"></i>Delivery Free</p>
+        </p>
+        <button class="btn btn-primary bg-[#FF4240] border-[#FF4240] text-white">Buy Now!</button>
+      </div>
+    </div>
+  </div>
+  <!-- product-3 -->
+  <div class="hero  bg-base-200 border-dotted border-2 border-[#1313181A] bg-white ml-10">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="images/product3.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div><p class="py-3"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>5.0 
+        &nbsp; &nbsp; <i class="fa-solid fa-eye"></i>20 &nbsp; &nbsp;<i class="fa-regular fa-heart"></i>200</p>
+        <h1 class="text-xl font-bold">World Cup caps</h1>
+        <p class="py-6">Top off your style with our premium collection of caps. From sleek and classic designs to bold expressions of team spirit, our caps are the perfect accessory to showcase your passion for the game.</p>
+        <p > <span style="color: #FF4240;" class="text-2xl font-medium">Price - $22.00 &nbsp; &nbsp;</span><i class="fa-solid fa-cart-shopping"></i>Delivery Free</p>
+        </p>
+        <button class="btn btn-primary bg-[#FF4240] border-[#FF4240] text-white">Buy Now!</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- product-4 -->
+  <div class="hero  bg-base-200 border-dotted border-2 border-[#1313181A] bg-white ml-10">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="images/product5.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div><p class="py-3"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>5.0 
+        &nbsp; &nbsp; <i class="fa-solid fa-eye"></i>20 &nbsp; &nbsp;<i class="fa-regular fa-heart"></i>200</p>
+        <h1 class="text-xl font-bold">Helmets</h1>
+        <p class="py-6">Ensure safety on the ice with our cutting-edge helmets. Explore our range of high-performance headgear, combining advanced technology and sleek design to provide players with confidence and protection during every intense hockey match.</p>
+        <p > <span style="color: #FF4240;" class="text-2xl font-medium">Price - $22.00 &nbsp; &nbsp;</span><i class="fa-solid fa-cart-shopping"></i>Delivery Free</p>
+        </p>
+        <button class="btn btn-primary bg-[#FF4240] border-[#FF4240] text-white">Buy Now!</button>
+      </div>
+    </div> 
+  </div>
+  <!-- product-5 -->
+  <div class="hero  bg-base-200 border-dotted border-2 border-[#1313181A] bg-white ml-10">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="images/product4.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div><p class="py-3"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>5.0 
+        &nbsp; &nbsp; <i class="fa-solid fa-eye"></i>20 &nbsp; &nbsp;<i class="fa-regular fa-heart"></i>200</p>
+        <h1 class="text-xl font-bold">World Cup Flags jerseys</h1>
+        <p class="py-6">Step onto the ice in style with our exceptional collection of hockey jerseys. Designed for comfort and performance, our jerseys showcase your team spirit and commitment to the game with top-quality materials and attention to detail.</p>
+        <p > <span style="color: #FF4240;" class="text-2xl font-medium">Price - $22.00 &nbsp; &nbsp;</span><i class="fa-solid fa-cart-shopping"></i>Delivery Free</p>
+        </p>
+        <button class="btn btn-primary bg-[#FF4240] border-[#FF4240] text-white">Buy Now!</button>
+      </div>
+    </div>
+  </div>
+  <!-- product-6 -->
+  <div class="hero  bg-base-200 border-dotted border-2 border-[#1313181A] bg-white ml-10">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="images/product6.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div><p class="py-3"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>5.0 
+        &nbsp; &nbsp; <i class="fa-solid fa-eye"></i>20 &nbsp; &nbsp;<i class="fa-regular fa-heart"></i>200</p>
+        <h1 class="text-xl font-bold">World Cup Flags Footballs</h1>
+        <p class="py-6">Elevate your football game with our exceptional range of high-quality footballs. From professional match balls to training essentials, our collection combines durability and precision to enhance your skills on the field.</p>
+        <p > <span style="color: #FF4240;" class="text-2xl font-medium">Price - $22.00 &nbsp; &nbsp;</span><i class="fa-solid fa-cart-shopping"></i>Delivery Free</p>
+        </p>
+        <button class="btn btn-primary bg-[#FF4240] border-[#FF4240] text-white">Buy Now!</button>
+      </div>
+    </div>
+  </div>
+
+
+
+ </div>
+
+
+
+
+<!-- clients question part -->
+<div class=" manrope text-center  border-dotted border-2 border-[#13131833] p-4 mb-10 m-10 bg-white"> 
+  <h3 class="font-extrabold text-2xl">Clients Question</h3>
+  <p class="text-xl  font-medium">Certainly!we provide more details or a questions from clients, and we'll do my best to assist you.</p>
+
+ </div>
+
+
+ 
+
+ <div class="manrope border-dotted border-2 border-[#13131833] p-4 mb-10 m-10 lg:flex">
+  <div><img src="images/clientsQuestion.png" alt=""></div>
+  <div>
+
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" checked="checked" /> 
+      <div class="collapse-title text-xl  font-bold">
+        Our Equipment
+      </div>
+      <div class="collapse-content"> 
+        <p>Equip yourself for success with our premium range of hockey gear and equipment. From cutting-edge sticks and protective gear to accessories that enhance your game, our collection is crafted for performance, durability, and the true spirit of the sport.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl  font-bold">
+        Hockey Training
+      </div>
+      <div class="collapse-content"> 
+        <p>Elevate your hockey skills with our comprehensive training programs. Whether you're a beginner or a seasoned player, our expertly designed sessions focus on skill development, strategic gameplay, and overall fitness to unleash your full potential on the ice</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl  font-bold">
+        Private Lessons
+      </div>
+      <div class="collapse-content"> 
+        <p>Refine your game with personalized excellence through our private hockey lessons. Tailored to individual needs, our experienced coaches provide focused guidance, accelerating skill development and strategic understanding for an unparalleled on-ice performance</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl  font-bold">
+        Ski Touring
+      </div>
+      <div class="collapse-content"> 
+        <p>Embark on an unforgettable adventure with our ski touring experiences. Explore pristine snow-covered landscapes, master the art of uphill travel, and immerse yourself in the thrill of backcountry skiing with our expertly guided tours designed for all skill levels</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl  font-bold">
+        Booking
+      </div>
+      <div class="collapse-content"> 
+        <p>Book your next thrilling adventure seamlessly with our user-friendly online booking platform. Choose from a variety of experiences, secure your spot, and get ready to embark on a memorable journey with convenience and ease</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl  font-bold">
+        pricing
+      </div>
+      <div class="collapse-content"> 
+        <p>Discover transparent and competitive pricing for our premium hockey services, ensuring you receive exceptional value for top-notch coaching, cutting-edge equipment, and an unparalleled sports experience. Elevate your game with affordable excellence</p>
+      </div>
+    </div>
+
+  </div>
+
+ </div>
+
+
+
+
+<!-- Get in touch part -->
+<div class=" manrope text-center  border-dotted border-2 border-[#13131833] p-4 mb-10 m-10 bg-white"> 
+  <h3 class="font-extrabold text-2xl">Get In Touch</h3>
+  <p class="text-xl  font-medium">Connect with us and let the journey begin. Get in touch to explore our hockey offerings, discuss personalized training, or inquire about our premium equipment. Your passion for the game starts with a simple conversation reach out today.</p>
+
+ </div>
+ 
+<div class="lg:flex justify-evenly  ">
+
+ <div class=" w-1/2 manrope   border-dotted border-2 border-[#13131833] p-4 mb-10 m-10 bg-white ">
+  <div style="background-color: #BCED6E19; margin-bottom: 24px;padding:24px ;">
+    <img src="images/mail_Icon.png" alt="">
+    <p>Email</p>
+    <p style="font-weight: 700;">hockeys@support.com</p>
+
+  </div>
+  
+  <div style="background-color: #FDDD5F19;margin-bottom: 24px;padding:24px ;">
+    <img src="images/location_Icon.png" alt="">
+    <p>location</p>
+    <p style="font-weight: 700; ">152/1 Mohakhali Wireless Gate</p>
+
+  </div>
+  
+  <div style="background-color: #629CF319; margin-bottom: 24px;padding:24px ;">
+    <img src="images/call_icon.png" alt="">
+    <p>phone number</p>
+    <p style="font-weight: 700;">(+62) 123-321-543</p>
+
+  </div>
+</div>
+  
+
+<!-- Get in Touch form -->
+
+<div class="  w-1/2 border-dotted border-2 border-[#13131833] p-4 mb-10 m-10 bg-white manrope lg:grid grid-cols-2">
+<div class="mt-2">
+  <p style="font-weight: 700;">Your Name</p>
+  <input type="text"placeholder="Enter your name" class="w-5/6 bg-[#13131805] p-3">
+</div>
+<div class="mt-2">
+  <p style="font-weight: 700;">Your Name</p>
+  <input type="text"placeholder="Enter your name" class="w-5/6 bg-[#13131805] p-3">
+</div>
+<div class="mt-2">
+  <p style="font-weight: 700;">Your Email</p>
+  <input type="text"placeholder="Enter your email" class="w-5/6 bg-[#13131805] p-3">
+</div>
+<div class="mt-2">
+  <p style="font-weight: 700;">Phone Number</p>
+  <input type="text"placeholder="Enter your Phone Number" class="w-5/6 bg-[#13131805] p-3">
+</div>
+<div class="col-span-2 w-full">
+  <p style="font-weight: 700;"> Message</p>
+  <textarea class=" bg-[#13131805] w-full" rows="10" id="" placeholder="Write your message"></textarea>
+  <button class="w-full  rounded-xl bg-[#FF4240] border-[#FF4240] text-white">Send Message</button>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+ 
+
+</main>
+
+
+
 </body>
 </html>
